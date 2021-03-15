@@ -30,7 +30,7 @@ function App() {
         }}
         itemContent={(index, groupIndex) => {
           return (
-            <div>{index} (group {groupIndex})</div>
+            <div style={{border: index === 22 ? "1px solid green": null}}>{index} (group {groupIndex})</div>
           )
         }}
       />
